@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Nav/>
+    <router-view/>
     <SignUp/>
     <Footer/>
   </div>
@@ -46,7 +47,7 @@ export default {
   h1 {
     font-size: 56px;
     line-height: 56px;
-    letter-spacing: 2.5px;
+    // letter-spacing: 2.5px;
   }
 
   h2 {
@@ -65,6 +66,12 @@ export default {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 1.07px;
+  }
+
+  p {
+    font-family: $lexend;
+    font-size: 15px;
+    line-height: 25px;
   }
 
   ul {

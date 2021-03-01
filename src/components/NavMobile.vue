@@ -75,6 +75,7 @@ import Close from './Close'
         height: 100%;
         position: absolute;
         top: 64px;
+        z-index: 10;
     }
     .background-menu-nav-mobile {
         width: 100%;
@@ -91,6 +92,7 @@ import Close from './Close'
             justify-content: space-between;
             align-items: flex-start;
             margin-top: 64px;
+            margin-left: 32px;
             li a {
                 color: $lightGrey;
             }
