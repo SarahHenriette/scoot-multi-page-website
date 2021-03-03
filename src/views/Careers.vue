@@ -43,11 +43,6 @@ import JobOffer from './../components/JobOffer'
       Values,
       JobOffer
     }, 
-    data () {
-      return {
-     
-      }
-    }
   }
 </script>
 

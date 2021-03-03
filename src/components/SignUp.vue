@@ -11,12 +11,6 @@
     </section>
 </template>
 
-<script>
-    export default {
-        
-    }
-</script>
-
 <style lang="scss" scoped>
   $darkNavy: #495567;
   $white: #FFF;
