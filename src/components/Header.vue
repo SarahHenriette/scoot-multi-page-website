@@ -23,6 +23,7 @@ $white: #FFF;
         align-items: center;
         position: relative;
         overflow: hidden;
+        margin-bottom: 120px;
         h2, .background-circles {
             position: absolute;
         }
@@ -45,7 +46,7 @@ $white: #FFF;
 
     @media screen and (max-width: 700px) {
         header {
-
+            margin-bottom: 72px;
             h2 {
                 text-align: center;
                 left: 0;

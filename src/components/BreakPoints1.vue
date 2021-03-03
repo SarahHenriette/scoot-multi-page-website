@@ -27,6 +27,21 @@ $dimGrey: #939CAA;
         justify-content: space-between;
         align-items: flex-start;
         margin-left: 30px;
+        .text-break-point {
+            height: 155px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            h4, p{
+                margin: 0;
+            }
+            h4 {
+                color: $darkNavy;
+            }
+            p {
+                color: $dimGrey;
+            }
+        }
         
         h4, p{
             margin: 0;

@@ -4,7 +4,7 @@
             <li><router-link to="/"><Logo class="logo-nav"/></router-link></li>
             <li><router-link to="/about">About</router-link></li>
             <li><router-link to="/location">Location</router-link></li>
-            <li><router-link to="/location">Careers</router-link></li>
+            <li><router-link to="/careers">Careers</router-link></li>
         </ul>
         <Button text ="Get Scootin" class="btn-nav"/>
         <NavMobile class="nav-mobile"/>

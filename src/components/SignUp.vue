@@ -27,6 +27,7 @@
         position: relative;
         display: flex;
         overflow: hidden;
+        margin-top: 40px;
         .background-sign-up {
             position: absolute;
             bottom: 0;
