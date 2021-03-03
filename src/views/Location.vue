@@ -28,6 +28,8 @@ import Button from './../components/Button'
 import PointerMap from './../components/PointerMap'
 
   export default {
+     name: 'Location',
+
     components: {
       Header,
       Button,

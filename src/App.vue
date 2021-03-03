@@ -47,7 +47,6 @@ export default {
   h1 {
     font-size: 56px;
     line-height: 56px;
-    // letter-spacing: 2.5px;
   }
 
   h2 {
@@ -92,6 +91,85 @@ export default {
     transition: color .5s ease;
     &:hover {
       color: $darkNavy;
+    }
+  }
+
+//affichage des "articles" de la page home  
+
+  main {
+    .contain-article:nth-child(2n+1) {
+      .article {
+        margin-left: 165px;
+      }
+    }
+
+    .contain-article:nth-child(2n) {
+      display: flex;
+      justify-content: flex-end;
+      .article {
+        margin-right: 165px
+      }
+    }
+  }
+
+  @media screen and (max-width: 1435px) {
+    main {
+      width: 100%;
+      .contain-article:nth-child(2n+1) {
+        .article {
+          margin-left: 10%;
+        }
+      }
+     .contain-article:nth-child(2n) {
+        .article {
+          margin-right: 10%;
+        }
+      }
+    }
+  }
+    @media screen and (max-width: 1245px) {
+    main {
+      .contain-article:nth-child(2n+1) {
+        .article {
+          margin-left: 34%;
+        }
+      }
+      .contain-article:nth-child(2n) {
+        .article {
+          margin-right: 28%;
+        }
+      }
+    }
+     
+  }
+
+  @media screen and (max-width: 780px) {
+      main {
+        .contain-article:nth-child(2n+1) {
+          .article {
+            margin-left: 23%;
+          }
+        }
+        .contain-article:nth-child(2n) {
+          .article {
+            margin-right: 19%;
+          }
+        }
+      }
+  }
+
+  @media screen and (max-width: 415px) {
+    main {
+      .contain-article:nth-child(2n+1) {
+        .article {
+          margin-left: 10%;
+        }
+      }
+      .contain-article:nth-child(2n) {
+        .article {
+          margin-right: 8%;
+        }
+      }
     }
   }
 </style>

@@ -53,6 +53,8 @@ import Faq from './../components/Faq'
 import Question from './../components/Question'
 
   export default {
+     name: 'About',
+     
     components: {
       Header,
       Article,

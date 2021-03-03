@@ -34,6 +34,8 @@ import Values from './../components/Values'
 import JobOffer from './../components/JobOffer'
 
   export default {
+     name: 'Careers',
+
     components: {
       Header,
       Article,
