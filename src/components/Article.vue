@@ -130,7 +130,7 @@
         
     }
 
-  @media screen and (max-width: 530px) {
+  @media screen and (max-width: 750px) {
         .article {
             height: 698px;
             article {

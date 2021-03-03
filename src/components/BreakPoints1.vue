@@ -26,7 +26,6 @@ $dimGrey: #939CAA;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        margin-left: 30px;
         .text-break-point {
             height: 155px;
             display: flex;
