@@ -52,25 +52,25 @@ export default {
   h2 {
     font-size: 48px;
     line-height: 48px;
-    letter-spacing: 2.14px;
+    // letter-spacing: 2.14px;
   }
 
   h3 {
     font-size: 40px;
     line-height: 48px;
-    letter-spacing: 1.79px;
+    // letter-spacing: 1.79px;
   }
 
   h4 {
     font-size: 24px;
     line-height: 28px;
-    letter-spacing: 1.07px;
+    // letter-spacing: 1.07px;
   }
 
   p {
     font-family: $lexend;
     font-size: 15px;
-    line-height: 25px;
+    // line-height: 25px;
   }
 
   ul {
