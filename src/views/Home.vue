@@ -49,8 +49,7 @@ export default {
     Article,
     HeaderHome,
     BreakPointsHome,
-    
-  }
+  },
 }
 </script>
 

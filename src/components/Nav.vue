@@ -1,7 +1,8 @@
 <template>
     <div id="nav">
         <ul class="links-nav">
-            <li><router-link to="/"><Logo class="logo-nav"/></router-link></li>
+            <li v-if="$route.name !== 'Home'"><router-link to="/"><Logo class="logo-nav"/></router-link></li>
+            <li v-else><Logo class="logo-nav"/></li>
             <li><router-link to="/about">About</router-link></li>
             <li><router-link to="/location">Location</router-link></li>
             <li><router-link to="/careers">Careers</router-link></li>
@@ -22,9 +23,6 @@ export default {
         NavMobile,
         Logo
     },
-    mounted() {
-        console.log(this.$route.name)
-    }
 }
 </script>
 
@@ -53,10 +51,6 @@ export default {
     .nav-mobile {
         display: none;
         width: 100%;
-    }
-    #background-menu-nav-mobile {
-    }
-    #menu-nav-mobile {
     }
 }
 

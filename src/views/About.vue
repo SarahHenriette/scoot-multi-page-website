@@ -54,7 +54,7 @@ import Question from './../components/Question'
 
   export default {
      name: 'About',
-     
+
     components: {
       Header,
       Article,
@@ -62,14 +62,6 @@ import Question from './../components/Question'
       Faq,
       Question
     },
-    mounted () {
-        console.log(Article)
-      },
-    methods: {
-      mounted () {
-        console.log(Article)
-      }
-    }
   }
 </script>
 
