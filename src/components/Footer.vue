@@ -1,7 +1,8 @@
 <template>
     <footer>
         <ul class="links-footer">
-            <li><router-link to="/"><Logo class="logo-footer"/></router-link></li>
+            <li v-if="$route.name !== 'Home'"><router-link to="/"><Logo class="logo-footer"/></router-link></li>
+            <li v-else><Logo class="logo-footer"/></li>
             <li><router-link to="/about">About</router-link></li>
             <li><router-link to="/location">Location</router-link></li>
             <li><router-link to="/location">Careers</router-link></li>
