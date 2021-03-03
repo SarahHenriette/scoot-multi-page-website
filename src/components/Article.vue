@@ -1,5 +1,5 @@
 <template>
-    <section class="article">
+    <div class="article">
         <article class="text-article">
             <h2><slot name="title"></slot></h2>
             <p><slot name="text"></slot></p>
@@ -13,7 +13,7 @@
             <slot name="decoration" class="decoration"></slot>
         </figure>
         
-    </section>
+    </div>
 </template>
 
 <script>

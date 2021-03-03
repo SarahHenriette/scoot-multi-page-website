@@ -21,6 +21,9 @@ export default {
         Button,
         NavMobile,
         Logo
+    },
+    mounted() {
+        console.log(this.$route.name)
     }
 }
 </script>
