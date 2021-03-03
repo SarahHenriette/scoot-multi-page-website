@@ -7,9 +7,7 @@
 
 <script>
 export default {
-    props: {
-        city: String
-    }
+    props: ['city']
 }
 </script>
 
@@ -57,9 +55,6 @@ export default {
              p {
                 font-size: 13px!important;
             }
-        }
-        .triangle {
-
         }
     }
 }

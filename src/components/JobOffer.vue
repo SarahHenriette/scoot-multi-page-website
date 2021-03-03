@@ -12,10 +12,7 @@
 import Button from './../components/Button'
 
 export default {
-    props: {
-        name: String,
-        location: String
-    },
+    props: ['name', 'location'],
     components: {
         Button
     }

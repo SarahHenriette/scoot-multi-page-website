@@ -29,9 +29,7 @@
 import BreakPointsValues from './../components/BreakPointsValues'
 
     export default {
-        props: {
-            title: String
-        },
+        props: ['title'],
         components: {
             BreakPointsValues
         }

@@ -76,9 +76,6 @@
                     font-size: 32px!important;
                     line-height: 32px!important;
                 }
-                .app-store-and-google-play {
-              
-                }
             }
         }
     }
