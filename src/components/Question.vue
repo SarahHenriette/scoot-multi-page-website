@@ -14,9 +14,7 @@
     
 <script>
 export default {
-    props: {
-        question: String
-    },
+    props: ['question'],
     data () {
         return {
             chevron: true,
@@ -63,10 +61,13 @@ $lightYellow: #FFF4DF;
             }
             svg {
                 cursor: pointer;
+                padding: 20px;
+
             }
             svg.active {
                 transform: rotate(180deg);
                 cursor: pointer;
+                padding: 20px;
             }
         }
         main {
